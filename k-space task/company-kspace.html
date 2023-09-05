@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal || www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>k-space</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="logo_item">
+        <i class="bx bx-menu" id="sidebarOpen"></i>
+        <img src="images/k-logo.jpg" alt=""></i>
+      </div>
+
+
+      <div class="navbar_content">
+        <i class="bi bi-grid"></i>
+        <i>Admin</i>
+        <!-- <i class='bx bx-bell' ></i> -->
+        <img src="images/profile.png" alt="" class="profile" />
+        <i>Logout</i>
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+    <nav class="sidebar">
+      <div class="menu_content">
+        <ul class="menu_items">
+          <!-- duplicate or remove this li tag if you want to add or remove navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <a href="index.html" class="nav_link">
+              <span class="navlink_icon">
+                <i class="bx bx-grid-alt"></i>
+              </span>
+              <span class="navlink">Dashboard</span>
+            </a>
+          </li>
+
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i><iconify-icon icon="eos-icons:cluster-management"></iconify-icon></i>
+              </span>
+              <span class="navlink">Area Management</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink"><i><iconify-icon icon="eos-icons:cluster-management"></iconify-icon></i>Nav Sub Link</a>
+              <a href="#" class="nav_link sublink"><i><iconify-icon icon="eos-icons:cluster-management"></iconify-icon></i>Nav Sub Link</a>
+              <a href="#" class="nav_link sublink"><i><iconify-icon icon="eos-icons:cluster-management"></iconify-icon></i>Nav Sub Link</a>
+              <a href="#" class="nav_link sublink"><i><iconify-icon icon="eos-icons:cluster-management"></iconify-icon></i>Nav Sub Link</a>
+            </ul>
+          </li>
+
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="bx bx-home-alt"></i>
+              </span>
+              <span class="navlink">Homepage Management</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+          
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink"><i><iconify-icon icon="bi:images"></iconify-icon></i>Banner Images</a>
+              <a href="#" class="nav_link sublink"><i><iconify-icon icon="basil:notification-solid"></iconify-icon></i>Scrolling Notification</a>
+              <a href="#" class="nav_link sublink"><i><iconify-icon icon="gg:move-task"></iconify-icon></i>Scope of Activities</a>
+              <a href="#" class="nav_link sublink"><i><iconify-icon icon="jam:messages"></iconify-icon></i>Messages</a>
+              <li class="item">
+                <div href="#" class="nav_link sub-submenu-item">
+                  <span class="navlink_icon">
+                    <i><iconify-icon icon="raphael:users"></iconify-icon></i>
+                  </span>
+                  <span class="navlink">About K-Space</span>
+                  <i class="bx bx-chevron-right"></i>
+                </div>
+                <ul class="menu_items sub-submenu">
+                  <a href="#" class="nav_link sublink"><i><iconify-icon icon="jam:messages"></iconify-icon></i>Sublink 1</a>
+                  <a href="#" class="nav_link sublink"><i><iconify-icon icon="jam:messages"></iconify-icon></i>Sublink 2</a>
+                  <a href="#" class="nav_link sublink"><i><iconify-icon icon="jam:messages"></iconify-icon></i>Sublink 3</a>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i><iconify-icon icon="cib:f-secure"></iconify-icon>
+                </i>
+              </span>
+              <span class="navlink">Domains</span>
+            </a>
+          </li>
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i><iconify-icon icon="mdi:company"></iconify-icon>
+                </i>
+              </span>
+              <span class="navlink">Companies</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+                <a href="company-kspace.html" class="nav_link sublink"><i><iconify-icon icon="mdi:company"></iconify-icon></i>K Space</a>
+                <a href="#" class="nav_link sublink"><i><iconify-icon icon="mdi:company"></iconify-icon></i>Kerala</a>
+              <a href="#" class="nav_link sublink"><i><iconify-icon icon="mdi:company"></iconify-icon></i>International</a>
+              <a href="#" class="nav_link sublink"><i><iconify-icon icon="mdi:company"></iconify-icon></i>India</a>
+            </ul>
+          </li>
+
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i><iconify-icon icon="mingcute:user-add-fill"></iconify-icon>
+                </i>
+              </span>
+              <span class="navlink">Resource Personnel</span>
+            </a>
+          </li>
+
+          <li class="item">
+            <a href="#" class="nav_link">
+              <span class="navlink_icon">
+                <i><iconify-icon icon="fa-solid:tools"></iconify-icon>
+                </i>
+              </span>
+              <span class="navlink">Expert Manpower Registry</span>
+            </a>
+          </li>
+          <!-- end -->
+
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i><iconify-icon icon="mdi:idea"></iconify-icon>
+                </i>
+              </span>
+              <span class="navlink">Market Research</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+            </ul>
+          </li>
+
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i><iconify-icon icon="game-icons:thunderball"></iconify-icon>
+                </i>
+              </span>
+              <span class="navlink">New Research Ideas</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+            </ul>
+          </li>
+
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i><iconify-icon icon="cib:htmlacademy"></iconify-icon>
+                </i>
+              </span>
+              <span class="navlink">Academic Institutions</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+            </ul>
+          </li>
+
+          <li class="item">
+            <a href="spacepark.html" class="nav_link">
+              <span class="navlink_icon">
+                <i><iconify-icon icon="mdi:account-box-multiple"></iconify-icon>
+                </i>
+              </span>
+              <span class="navlink">Spacepark Advisors</span>
+            </a>
+          </li>
+
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i><iconify-icon icon="prime:calendar"></iconify-icon>
+                </i>
+              </span>
+              <span class="navlink">Events</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+            </ul>
+          </li>
+
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i><iconify-icon icon="solar:gallery-send-bold"></iconify-icon>
+                </i>
+              </span>
+              <span class="navlink">Gallery</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="bottom_content">
+          <div class="bottom expand_sidebar">
+            <span> Expand</span>
+            <i class='bx bx-log-in' ></i>
+          </div>
+          <div class="bottom collapse_sidebar">
+            <span> Collapse</span>
+            <i class='bx bx-log-out'></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+        <!-- main content -->
+            <div class="main_content_space">
+              <button type="button" class="btn btn-primary main_content_park-button" id="exportCsvLink">Export Csv</button>
+
+                <h3>New Proposals</h3>
+                <div class="main_content_k-space">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle k-space-drop" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select Status
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>                    
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle k-space-drop" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select Domain
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                  <div class="searchButton">
+                    <iconify-icon icon="majesticons:search"></iconify-icon>
+                  </div>
+                  </div>
+                  <div class="table-responsive">
+                        <table class="table table-striped table-hover spacepark-table">
+                                <tr>
+                                    <th>Company Name</th>
+                                    <th>Application ID</th>
+                                    <th>Email</th>
+                                    <th>Application Status</th>
+                                    <th>Action</th>
+                                </tr>
+                                <tr>
+                                  <td>sdb</td>
+                                  <td>1010</td>
+                                  <td>sdbs@hotmail.com</td>
+                                  <td><button type="button" class="btn">Pending</button></td>
+                                  <td><div class="table_eye"><iconify-icon icon="ion:eye-sharp"></iconify-icon></div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>fsds</td>
+                                  <td>1011</td>
+                                  <td>fsds@hotmail.com</td>
+                                  <td><button type="button" class="btn">Pending</button></td>
+                                  <td><div class="table_eye"><iconify-icon icon="ion:eye-sharp"></iconify-icon></div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>wwsda</td>
+                                  <td>1010</td>
+                                  <td>wwsda@hotmail.com</td>
+                                  <td><button type="button" class="btn">Pending</button></td>
+                                  <td><div class="table_eye"><iconify-icon icon="ion:eye-sharp"></iconify-icon></div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>fsds</td>
+                                  <td>1010</td>
+                                  <td>fsds@hotmail.com</td>
+                                  <td><button type="button" class="btn">Pending</button></td>
+                                  <td><div class="table_eye"><iconify-icon icon="ion:eye-sharp"></iconify-icon></div>
+                                  </td>
+                                </tr>
+                        </table>
+                </div>
+
+        </div>
+        <!-- end main content -->
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script src="js/addscript.js"></script>
+
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
